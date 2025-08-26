@@ -1,0 +1,50 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 1. The Background Container */
+.background-container {
+    /* Make it use an image from a folder named "images" */
+    background-image: url('images/background.jpg'); /* IMPORTANT: Change this to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This is the magic property! */
+    /* Position it to cover the entire screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Pushes it behind all other content */
+}
+
+/* 2. The Scrolling Content Wrapper */
+.page-wrapper {
+    /* This allows the content to scroll. It could also have a semi-transparent background if you want */
+}
+
+/* 3. Basic styling for the content to make it readable */
+.site-header {
+    text-align: center;
+    color: white;
+    padding: 100px 20px 50px 20px; /* Add padding to push content down */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 40px auto; /* Center the container */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
