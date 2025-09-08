@@ -1,10 +1,29 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self';
+               script-src 'self' 'sha256-YOUR_HASH_HERE';
+               style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+               font-src 'self' https://cdnjs.cloudflare.com;
+               img-src 'self' data:;
+               frame-src https://www.youtube.com;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Raspberrypi.app</title>
-    <link rel="stylesheet" href="style.css">
+    <title> BloKchain.co.uk Project - Your Smart Guide to Crypto</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Browser icon-->
+    <!--Browser icon-->
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
 </head>
 <body>
 
@@ -15,23 +34,38 @@
     <div class="page-wrapper">
 
         <header class="site-header">
-            <h1>Welcome to RaspberryPi.app</h1>
-            <p>SOMETHING AMAZING IS COMING SOON>>>></p>
+            <div class="nav-container">
+                <!-- === MASTER NAVIGATION BLOCK === -->
+                <nav>
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#" class="drop-btn">What is Raspberry Pi</a>
+                            <div class="dropdown-content">
+                                <a href="what-is-blockchain.html">Intro</a>
+                                <a href="blockchain-evolution.html">Pi and A</a>
+                                <a href="ethereum-and-pos.html">Ethereum 2: From PoW to PoS</a>
+                                <a href="simple-blockchain-demo.html">Live Demo (test here!)</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- === MASTER NAVIGATION BLOCK - END === -->
+            </div>
         </header>
 
-        <main class="content-container">
-            <h2>About This Project</h2>
-            
-            <p>
-                Whatever your application and whatever your scale, Raspberry Pi offers cost‑effective, high‑performance computing for businesses and the home.
+    <main class="content-container">
+        <h2>About This Project</h2>
 
-                Designed and manufactured in the UK.
-            </p>
-        </main>
+        <p>
+            Whatever your application and whatever your scale, Raspberry Pi offers cost‑effective, high‑performance computing for businesses and the home.
 
-        <footer class="site-footer">
-            <p>© 2025 Raspberrypi.app - All Rights Reserved</p>
-        </footer>
+            Designed and manufactured in the UK.
+        </p>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Raspberrypi.app - All Rights Reserved</p>
+    </footer>
 
     </div>
 
